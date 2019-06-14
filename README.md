@@ -1,0 +1,1 @@
+This project gives examples on how to use QuickPerf with Spring Boot and JUnit4.
