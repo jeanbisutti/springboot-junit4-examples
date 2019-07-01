@@ -8,6 +8,10 @@ import java.util.Collection;
 
 import static org.quickperf.sql.annotation.SqlAnnotationBuilder.*;
 
+/**
+ * This class configures global annotations that is to say annotations applying on
+ * each test.
+ */
 public class QuickPerfConfiguration implements SpecifiableAnnotations {
 
     public Collection<Annotation> specifyAnnotationsAppliedOnEachTest() {
