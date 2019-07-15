@@ -29,7 +29,7 @@ public class QuickPerfConfiguration implements SpecifiableAnnotations {
                 , // https://use-the-index-luke.com/sql/where-clause/searching-for-ranges/like-performance-tuning
                   disableLikeWithLeadingWildcard()
 
-                , // Can reveal a bad use of Hibernate
+                , // Can reveal a bad use of Hibernate session
                   disableExactlySameSelects()
 
               //, //https://vladmihalcea.com/hibernate-facts-always-check-criteria-api-sql-queries/
