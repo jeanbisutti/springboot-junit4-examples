@@ -1,6 +1,6 @@
 package org.quickperf;
 
-import org.quickperf.config.SpecifiableAnnotations;
+import org.quickperf.config.SpecifiableGlobalAnnotations;
 
 import java.lang.annotation.Annotation;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import static org.quickperf.sql.annotation.SqlAnnotationBuilder.*;
  * This class configures global annotations that is to say annotations applying on
  * each test.
  */
-public class QuickPerfConfiguration implements SpecifiableAnnotations {
+public class QuickPerfConfiguration implements SpecifiableGlobalAnnotations {
 
     public Collection<Annotation> specifyAnnotationsAppliedOnEachTest() {
 
